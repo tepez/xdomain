@@ -1,5 +1,5 @@
 {
-  "name": "xdomain",
+  "name": "@tepez/xdomain",
   "version": "0.8.2",
   "description": "A pure JavaScript CORS alternative",
   "browser": "dist/xdomain.js",
