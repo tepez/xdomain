@@ -90,6 +90,7 @@ const getFrame = function(origin, proxyPath) {
   log(`creating iframe ${frame.id}`);
   frame.src = `${origin}${proxyPath}`;
   frame.setAttribute("style", "display:none;");
+  frame.setAttribute("sandbox", "allow-scripts allow-same-origin");
   document.body.appendChild(frame);
   return (frames[origin] = frame.contentWindow);
 };
