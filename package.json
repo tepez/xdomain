@@ -1,6 +1,6 @@
 {
   "name": "@tepez/xdomain",
-  "version": "0.8.2",
+  "version": "0.9.0",
   "description": "A pure JavaScript CORS alternative",
   "browser": "dist/xdomain.js",
   "main": "src/index.js",
