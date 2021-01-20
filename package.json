@@ -4,6 +4,7 @@
   "description": "A pure JavaScript CORS alternative",
   "browser": "dist/xdomain.js",
   "main": "src/index.js",
+  "types": "index.d.ts",
   "license": "MIT",
   "repository": {
     "type": "git",
